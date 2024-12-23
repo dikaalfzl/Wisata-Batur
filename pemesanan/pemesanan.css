@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya Umum Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #384155;
+}
+
+.logo span {
+    color: #22B186; /* Warna hijau */
+}
+
+/* Navigasi */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #384155;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover Effect */
+nav a:hover {
+    background-color: #22B186;
+    color: #384155;
+}
+
+/* Active State */
+nav a.active {
+    background-color: #22B186;
+    color: #384155;
+}
+
+/* Tambahan untuk Mengatasi Bug */
+nav a:focus {
+    outline: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    font-size: 20px;
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.footer {
+    background-color: #fff; /* Warna latar belakang footer */
+    padding: 20px 40px;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 20px 20px; /* Sudut melengkung atas */
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #384155;
+    margin-bottom: 10px;
+}
+
+.footer-logo .highlight {
+    color: #22B186; /* Warna hijau untuk highlight */
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-nav a {
+    color: #384155;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #384155; /* Warna hijau saat hover */
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-nav {
+        justify-content: center;
+    }
+}
