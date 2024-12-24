@@ -116,12 +116,12 @@ nav a:focus {
 }
 
 .btn-primary {
-    background-color: #007bff;
+    background-color: #22B186;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #1d8968;
 }
 
 .btn-danger {

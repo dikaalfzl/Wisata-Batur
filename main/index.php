@@ -13,7 +13,7 @@
         <nav>
             <a href="#title-section">Home</a>
             <a href="#kontak-form">Kontak</a>
-            <a href="../pemesanan/pemesanan.php">Pemesanan</a>
+            <a href="../main/pemesanan.php">Pemesanan</a>
         </nav>
     </header>    
     

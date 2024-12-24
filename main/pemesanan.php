@@ -10,8 +10,8 @@
     <header>
         <div class="logo">WISATA <span>BATUR</span></div>
         <nav>
-            <a href="../beranda/index.php">Home</a>
-            <a href="../beranda/index.php#kontak-form">Kontak</a>
+            <a href="../main/index.php">Home</a>
+            <a href="../main/index.php#kontak-form">Kontak</a>
             <a href="#">Pemesanan</a>
         </nav>
     </header>
