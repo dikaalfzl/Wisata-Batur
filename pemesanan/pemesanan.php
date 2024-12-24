@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wisata Batur - Situ Cipanten</title>
-    <link rel="stylesheet" href="pemesanan.css">
+    <link rel="stylesheet" href="../asset/CSS/pemesanan.css">
 </head>
 <body>
     <header>
         <div class="logo">WISATA <span>BATUR</span></div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="index.html/#kontak">Kontak</a>
+            <a href="../beranda/index.php">Home</a>
+            <a href="../beranda/index.php#kontak-form">Kontak</a>
             <a href="#">Pemesanan</a>
         </nav>
     </header>

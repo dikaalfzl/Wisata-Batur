@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wisata Batur - Situ Cipanten</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../asset/CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -13,12 +13,12 @@
         <nav>
             <a href="#title-section">Home</a>
             <a href="#kontak-form">Kontak</a>
-            <a href="pemesanan.html">Pemesanan</a>
+            <a href="../pemesanan/pemesanan.php">Pemesanan</a>
         </nav>
     </header>    
     
     <section class="title-section" id="title-section">
-        <img src="asset/situ-cipanten.jpg" alt="Situ Cipanten">
+        <img src="../asset/Image/situ-cipanten.jpg" alt="Situ Cipanten">
         <h3>WISATA</h3>
         <h1>SITU CIPANTEN</h1>
     </section>
@@ -35,7 +35,7 @@
                 </p>
             </div>
             <div class="image">
-                <img src="asset/galeri7.jpg" alt="Danau Situ Cipanten">
+                <img src="../asset/Image/galeri7.jpg" alt="Danau Situ Cipanten">
             </div>
         </div>
     </section>
@@ -44,9 +44,9 @@
         <h2 class="judul-section">Galeri</h2>
         <div class="galeri-container">
             <div class="galeri-grid">
-                <img src="asset/galeri1.jpg" alt="Foto 1">
-                <img src="asset/galeri2.jpg" alt="Foto 2">
-                <img src="asset/galeri3.jpg" alt="Foto 3">
+                <img src="asset/Image/galeri1.jpg" alt="Foto 1">
+                <img src="asset/Image/galeri2.jpg" alt="Foto 2">
+                <img src="asset/Image/galeri3.jpg" alt="Foto 3">
                 <img src="asset/galeri4.jpg" alt="Foto 4">
                 <img src="asset/galeri5.jpg" alt="Foto 5">
                 <img src="asset/galeri6.jpg" alt="Foto 6">
