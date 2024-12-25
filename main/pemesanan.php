@@ -18,7 +18,7 @@
 
 <main class="flex-shrink-0">
   <div class="container">
-    <form method="post" action="proses.php">
+    <form method="post" action="../lib/proses.php">
 <div class="card mt-2">
   <div class="card-header bg-dark text-white">
     Form Pemesanan Paket Wisata

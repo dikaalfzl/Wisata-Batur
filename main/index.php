@@ -44,12 +44,12 @@
         <h2 class="judul-section">Galeri</h2>
         <div class="galeri-container">
             <div class="galeri-grid">
-                <img src="asset/Image/galeri1.jpg" alt="Foto 1">
-                <img src="asset/Image/galeri2.jpg" alt="Foto 2">
-                <img src="asset/Image/galeri3.jpg" alt="Foto 3">
-                <img src="asset/galeri4.jpg" alt="Foto 4">
-                <img src="asset/galeri5.jpg" alt="Foto 5">
-                <img src="asset/galeri6.jpg" alt="Foto 6">
+                <img src="../asset/Image/galeri1.jpg" alt="Foto 1">
+                <img src="../asset/Image/galeri2.jpg" alt="Foto 2">
+                <img src="../asset/Image/galeri3.jpg" alt="Foto 3">
+                <img src="../asset/image/galeri4.jpg" alt="Foto 4">
+                <img src="../asset/image/galeri5.jpg" alt="Foto 5">
+                <img src="../asset/image/galeri6.jpg" alt="Foto 6">
             </div>
             <a href="#" class="button-galeri">Semua Galeri →</a> <!---ganti ieu sesuai halaman galeri, biar tombol galeri pindah ke -->
         </div>
