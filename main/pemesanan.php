@@ -13,6 +13,7 @@
             <a href="../main/index.php">Home</a>
             <a href="../main/index.php#kontak-form">Kontak</a>
             <a href="#">Pemesanan</a>
+			<a href="../main/daftar.php">Daftar</a>
         </nav>
     </header>
 
@@ -200,7 +201,7 @@ updateTotal();
 </script>  </div>
 </main>
 
-<<footer class="footer">
+<footer class="footer">
 	<div class="footer-container">
 		<div class="footer-logo">
 			<span>WISATA <span class="highlight">BATUR</span></span>

@@ -25,10 +25,10 @@ if(isset($_POST['nama_pemesanan'])){
 	$sql = "INSERT INTO pemesanan (`nama_pemesanan`, `hp_pemesan`, `waktu_wisata`, `hari_wisata`, `pesan_tiket`, `kapal_dayung`, `ayunan`, `bebek_goes`, `sepeda_gantung`, `pelampung`, `jumlah_peserta`, `total_tagihan`) value ('$nama_pemesanan','$hp_pemesan','$waktu_wisata','$hari_wisata', '$pesan_tiket', '$kapal_dayung', '$ayunan', '$bebek_goes', '$sepeda_gantung', '$pelampung','$jumlah_peserta','$total_tagihan')";
 	$query = mysqli_query($db,$sql);
 	if($query){ 
-	    // $id_pemesanan = mysqli_insert_id($db);
-	    // header('Location: ../index.php?aksi=detail&id_pemesanan='.$id_pemesanan);
+	    $id_pemesanan = mysqli_insert_id($db);
+	    header('Location: ../main/detail.php?id_pemesanan='.$id_pemesanan);
 	    //echo $id_pemesanan;
-        echo 'berhasil';
+        //echo 'berhasil';
 	}else{ echo 0; }
 }else{
     //muncul pesan error
